@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
+<html>
+ <py-script>
 import pygame
 from copy import deepcopy
 from random import choice, randrange
@@ -183,4 +185,6 @@ while True:
 
     pygame.display.flip()
     clock.tick(FPS)
+  </py-script>
+</html>
   
