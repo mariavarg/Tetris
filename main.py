@@ -1,4 +1,3 @@
-<py-script>
 import pygame
 from copy import deepcopy
 from random import choice, randrange
@@ -181,6 +180,4 @@ while True:
 
     pygame.display.flip()
     clock.tick(FPS)
-  </py-script>
-</html>
   
