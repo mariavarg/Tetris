@@ -1,8 +1,4 @@
-<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-<script defer src="https://pyscript.net/latest/pyscript.js"></script>
-
-<html>
- <py-script>
+<py-script>
 import pygame
 from copy import deepcopy
 from random import choice, randrange
