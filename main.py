@@ -7,7 +7,7 @@ import pygame.mixer
 def main():
     global grid
 
-    pygame.mixer.music.load("path_to_kashmir.mp3")  # Replace "path_to_kashmir.mp3" with the actual file path of the "Kashmir" song
+    pygame.mixer.music.load("06-Kashmir.mp3")  # Replace "path_to_kashmir.mp3" with the actual file path of the "Kashmir" song
     pygame.mixer.music.play(-1)  # -1 indicates that the music should loop indefinitely
 
     locked_positions = {}  # (x,y):(255,0,0)
